@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import axios from 'axios';
 import Navbar from './Navbar'
-import requests from "../requests";
+// import requests from "../requests";
 
 const Main = () =>{
+  const key = "96ac100724b4b4ced6344916952c21e2";
 
   const [movies, setMovies] = useState([]);
 
@@ -11,7 +12,7 @@ const Main = () =>{
 
   useEffect(() => {
     return () => {
-      axios.get(requests.requestTrending).then((response) =>{
+      axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=2/`).then((response) =>{
         setMovies(response.data.results);
       })
     };
