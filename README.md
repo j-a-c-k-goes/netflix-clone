@@ -32,17 +32,6 @@ Login with email: test@mail.com and password: password
 
 ## Overview
 
-### The challenge
-
-Create the UI design and the website should operate as required: 
-- View the optimal layout for each of the website's pages depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each page and be able to toggle between the tabs to see new information
-
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Features
 
 - Space Launches Updates
@@ -54,23 +43,11 @@ Create the UI design and the website should operate as required:
 
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)  [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) 
 
-API: [Space](#)
+API: [TMDb](#)
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- Optional Chaining
 
 ### Continued development
 - axios
@@ -78,9 +55,7 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
-- [react-tabs](https://www.npmjs.com/package/react-tabs) - This helped me easily create tabs. I'd recommend it to anyone still learning this concept.
-
-- [Resource 2](https://www.example.com) - This is an amazing article that helped me finally understand. 
+- [react-scrollbar-hide](https://www.npmjs.com/) 
 
 
 ## Author
