@@ -1,13 +1,12 @@
 # Netflix clone
 
-Live [here](sprightly-torrone-a6b3ec.netlify.app) 
-Login with email: test@mail.com and password: password
-
-An exact clone of [Netflix](https://www.netflix.com/)
+An exact clone of [Netflix](https://www.netflix.com/) with extra features
 
 [![Last Commit](https://img.shields.io/github/last-commit/maryojo/spacia)](https://github.com/maryojo/netflix-clone/commits/main)
 
-- **Live Site URL** : [https://dynamic-crostata-c45511.netlify.app/](sprightly-torrone-a6b3ec.netlify.app)
+- **Live Site URL** : [https://dynamic-crostata-c45511.netlify.app/](sprightly-torrone-a6b3ec.netlify.app
+Login with email: test@mail.com and password: password
+
 - **GitHub Repository** : [https://github.com/maryojo/spacia](https://github.com/maryojo/netflix-clone)
 
 
