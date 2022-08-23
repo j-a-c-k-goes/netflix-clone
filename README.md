@@ -9,6 +9,8 @@ Login with email: test@mail.com and password: password
 
 - **GitHub Repository** : [https://github.com/maryojo/spacia](https://github.com/maryojo/netflix-clone)
 
+![Screenshot](https://ik.imagekit.io/fsa8lvz/Website_dev/screely-1661268586733_qm0YlbHa6.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661268635058)
+
 
 ### Progress
 ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/65)
