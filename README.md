@@ -32,7 +32,7 @@ Login with email: test@mail.com and password: password
 
 ### Features
 
-- Space Launches Updates
+- Save Favorite Movies
 
 
 ## My process
