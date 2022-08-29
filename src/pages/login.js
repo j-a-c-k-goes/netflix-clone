@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
+import background from '../images/netflix-background.png'
 // import {auth } from '../config'
 // import { signInWithEmailAndPassword } from 'firebase/auth';
 // import { useAuthState } from "react-firebase-hooks/auth";
@@ -26,9 +27,11 @@ const Login = () => {
   }
   
   return(
-    <div>
-      <BackgroundLayout status="invisible">
-        <div className="absolute p-20 bg-black bg-opacity-80 w-4/12 z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+    <div className='md:h-[150%] md:bg-stone-700 md:bg-cover md:bg-center'>
+     <img alt="" src={background} className=" invisible md:visible md:w-full md:h-full md:object-cover md:mix-blend-overlay"/>
+      {/* <BackgroundLayout status="invisible"> */}
+      <div>
+      <div className="absolute px-[2rem] py-[3rem] md:p-[4rem] bg-black bg-opacity-80 w-full md:w-6/12 lg:w-4/12 z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <h2 className="font-semibold text-3xl mb-7">Sign In</h2>
           <div className="space-y-3">
           <div>
@@ -61,7 +64,9 @@ const Login = () => {
             </div>
           </div>
         </div>
-      </BackgroundLayout>
+      </div>
+        
+      {/* </BackgroundLayout> */}
     </div>
   )
 }

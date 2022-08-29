@@ -20,7 +20,7 @@ const Navbar = () =>{
   return(
     <nav className="relative flex flex-col">
       <Link to="/">
-      <img src={logo} alt="" width={170} className="ml-10 absolute z-10"/>
+      <img src={logo} alt="" className="ml-[2rem] absolute z-10 w-[6rem] md:w-[10rem]"/>
       </Link>
       { user?.email ? (
         <div>
