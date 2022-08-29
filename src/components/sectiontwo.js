@@ -3,8 +3,8 @@ import app from '../images/mobile.jpg'
 
 function SectionTwo(){
   return(
-    <div className='flex flex-row-reverse bg-black px-36 py-14 text-white border-b-gray-600 border-b-8'>
-    <div className='w-4/6 my-auto space-y-5'>
+    <div className='flex flex-col-reverse lg:flex-row-reverse bg-black p-[3.5rem] md:p-[5rem] text-white border-b-gray-600 border-b-8 text-center lg:text-left'>
+    <div className='w-full lg:w-4/6 my-auto space-y-5'>
       <h1>Download your shows to watch offline.</h1>
       <h3>Save your favorites easily and always have something to watch.</h3>
     </div>

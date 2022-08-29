@@ -2,8 +2,8 @@ import tv from '../images/tv.png'
 
 function Section(){
   return(
-    <div className='flex flex-row bg-black px-36 py-14 text-white border-b-gray-600 border-b-8 border-t-8 border-t-gray-600 '>
-    <div className='w-3/6 my-auto space-y-5'>
+    <div className='flex flex-col lg:flex-row bg-black p-[3.5rem] md:p-[5rem] text-white border-b-gray-600 border-b-8 border-t-8 border-t-gray-600 text-center lg:text-left'>
+    <div className='w-full lg:w-3/6 my-auto space-y-5'>
       <h1>Enjoy on your TV.</h1>
       <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
     </div>

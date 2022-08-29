@@ -4,20 +4,22 @@ import Navbar from './Navbar'
 // import requests from "../requests";
 
 const Main = () =>{
-  const key = "96ac100724b4b4ced6344916952c21e2";
 
   const [movies, setMovies] = useState([]);
 
   const movie = movies[Math.floor(Math.random() * movies.length)];
 
+
   useEffect(() => {
-    return () => {
-      axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=2/`).then((response) =>{
-        setMovies(response.data.results);
-      })
-    };
+    getMovies();
   }, []);
 
+  const getMovies = async () =>{
+    const api = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${process.env.REACT_APP_APIKEY}`);
+    const data = await api.json();
+    console.log(data);
+    setMovies(data)
+}
   console.log(movie);
 
   const truncateText = (text, num) =>{

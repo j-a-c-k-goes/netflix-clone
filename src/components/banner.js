@@ -4,7 +4,7 @@ import BackgroundLayout from './backgroundlayout'
 function Banner() {
   return (
         <BackgroundLayout>
-          <div className="absolute z-10 text-center text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 space-y-5 w-6/12">
+          <div className="absolute z-10 text-center text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 space-y-5 lg:w-6/12 w-9/12">
             {/* <div className='w-5/6 self-center'> */}
             <h1 className="pt-10">Unlimited movies, TV shows, and more.</h1>
             <h3>Watch anywhere. Cancel anytime.</h3>

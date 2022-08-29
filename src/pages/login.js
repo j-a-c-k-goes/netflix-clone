@@ -52,7 +52,7 @@ const Login = () => {
             />
             <div 
             onClick={handleSubmit} 
-            className="bg-primary text-center text-lg font-medium rounded-lg py-3 cursor-pointer ">Sign In</div>
+            className="bg-primary button-text rounded-lg py-3 cursor-pointer ">Sign In</div>
             <div>
 
             </div>

@@ -9,7 +9,7 @@ const ManageProfiles = () =>{
   return(
     <div className="h-screen">
     <Navbar/>
-    <div className='flex flex-col items-center justify-center h-screen space-y-10'>
+    <div className='flex flex-row lg:flex-col items-center justify-center h-screen space-y-10'>
       <h2 className='font-semibold text-3xl'>Who's watching?</h2>
       <div className='grid grid-flow-col gap-6 align-middle'>
         <Link to="/home">

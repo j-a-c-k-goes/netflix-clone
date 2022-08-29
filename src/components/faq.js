@@ -2,7 +2,7 @@ import kids from '../images/kids.png'
 
 function Faq(){
   return(
-    <div className='px-36 py-14 border-b-gray-600 border-b-8 text-center'>
+    <div className='p-[3.5rem] md:p-[5rem] border-b-gray-600 border-b-8 text-center'>
     {/* <div className='w-4/6 my-auto space-y-5'> */}
       <h1>Frequently Asked Questions</h1>
     {/* </div> */}
